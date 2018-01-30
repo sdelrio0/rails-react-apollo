@@ -1,4 +1,4 @@
 import "init";
-import "./application.css";
+import "components/page/page";
 
-document.body.insertAdjacentHTML("afterbegin", "Webpacker works!");
+import "./application.css";
