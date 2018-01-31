@@ -1,0 +1,37 @@
+{
+  "config/webpack/**/*.js": [
+    "prettier --write",
+    "eslint",
+    "git add"
+  ],
+  "frontend/**/*.js": [
+    "prettier --write",
+    "eslint",
+    "git add"
+  ],
+  "frontend/**/*.css": [
+    "prettier --write",
+    "stylelint --fix",
+    "git add"
+  ],
+  "app/**/*.rb": [
+    "rubocop --auto-correct",
+    "git add"
+  ],
+  "config/**/*.rb": [
+    "rubocop --auto-correct",
+    "git add"
+  ],
+  "db/**/*.rb": [
+    "rubocop --auto-correct",
+    "git add"
+  ],
+  "lib/**/*.rb": [
+    "rubocop --auto-correct",
+    "git add"
+  ],
+  "vendor/**/*.rb": [
+    "rubocop --auto-correct",
+    "git add"
+  ]
+}
