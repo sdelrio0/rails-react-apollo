@@ -1,2 +1,8 @@
+# Please add rules to this file in alphabetical order
+
+Metrics/LineLength:
+  Max: 100
+
 Rails:
   Enabled: true
+
