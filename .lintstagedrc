@@ -14,23 +14,7 @@
     "stylelint --fix",
     "git add"
   ],
-  "app/**/*.rb": [
-    "rubocop --auto-correct",
-    "git add"
-  ],
-  "config/**/*.rb": [
-    "rubocop --auto-correct",
-    "git add"
-  ],
-  "db/**/*.rb": [
-    "rubocop --auto-correct",
-    "git add"
-  ],
-  "lib/**/*.rb": [
-    "rubocop --auto-correct",
-    "git add"
-  ],
-  "vendor/**/*.rb": [
+  "{app,config,db,lib,vendor}/**/*.rb": [
     "rubocop --auto-correct",
     "git add"
   ]
