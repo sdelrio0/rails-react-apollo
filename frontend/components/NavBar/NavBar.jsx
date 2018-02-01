@@ -21,7 +21,7 @@ const styles = {
   },
 };
 
-function NavBar(props) {
+const NavBar = props => {
   const { classes } = props;
   return (
     <div className={classes.root}>
@@ -42,7 +42,7 @@ function NavBar(props) {
       </AppBar>
     </div>
   );
-}
+};
 
 NavBar.propTypes = {
   classes: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types

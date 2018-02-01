@@ -15,8 +15,7 @@
   "rules": {
     "prettier/prettier": [
       "error"
-    ],
-    "react/prefer-stateless-function": false
+    ]
   },
 
   "parser": "babel-eslint",
