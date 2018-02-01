@@ -79,7 +79,4 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: rails-react-apollo_production
-  username: rails-react-apollo
-  password: <%= ENV['RAILS-REACT-APOLLO_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
