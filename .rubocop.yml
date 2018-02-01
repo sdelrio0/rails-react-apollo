@@ -1,7 +1,7 @@
 # Please add rules to this file in alphabetical order
-
-Metrics/LineLength:
-  Max: 100
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
 
 Rails:
   Enabled: true
