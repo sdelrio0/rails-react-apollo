@@ -1,15 +1,15 @@
 {
-  "config/webpack/**/*.js": [
+  "config/webpack/**/*.{js,jsx,es6}": [
     "prettier --write",
     "eslint",
     "git add"
   ],
-  "frontend/**/*.js": [
+  "frontend/**/*.{js,jsx,es6}": [
     "prettier --write",
     "eslint",
     "git add"
   ],
-  "frontend/**/*.css": [
+  "frontend/**/*.{css,scss,sass}": [
     "prettier --write",
     "stylelint --fix",
     "git add"
