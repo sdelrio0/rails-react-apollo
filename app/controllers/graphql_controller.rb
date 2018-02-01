@@ -1,6 +1,10 @@
 # rubocop:disable Metrics/MethodLength
 # :nodoc:
 class GraphqlController < ApplicationController
+  protect_from_forgery with: :exception,
+                       except: :execute,
+                       if: -> { Rails.env.development? }
+
   def execute
     variables = ensure_hash(params[:variables])
     query = params[:query]
