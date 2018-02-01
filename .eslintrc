@@ -1,14 +1,21 @@
 {
-  "extends": ["eslint-config-airbnb-base", "prettier"],
+  "extends": [
+    "eslint-config-airbnb",
+    "prettier"
+  ],
 
-  "plugins": ["prettier"],
+  "plugins": [
+    "prettier"
+  ],
 
   "env": {
     "browser": true
   },
 
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": [
+      "error"
+    ]
   },
 
   "parser": "babel-eslint",
