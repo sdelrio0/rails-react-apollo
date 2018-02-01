@@ -3,9 +3,6 @@ AllCops:
   Exclude:
     - 'db/schema.rb'
 
-Metrics/LineLength:
-  Max: 100
-
 Rails:
   Enabled: true
 
