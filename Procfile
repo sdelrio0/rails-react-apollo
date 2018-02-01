@@ -1,1 +1,2 @@
-server: bin/rails server
+server:  bin/rails server
+migrate: bin/rails db:migrate
