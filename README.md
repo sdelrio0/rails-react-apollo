@@ -1,5 +1,10 @@
 # Rails + React + Apollo GraphQL
 
+## Running in DEV
+
+```
+$ overmind s -f Procfile.dev
+```
 
 ## Styling conventions
 
