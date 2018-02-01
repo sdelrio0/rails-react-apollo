@@ -2,6 +2,6 @@
 class FrontendController < ApplicationController
   def index
     # TODO: Why setting to true crashes?
-    render component: 'index', props: {}, prerender: false
+    render component: 'Root', props: {}, prerender: false
   end
 end
