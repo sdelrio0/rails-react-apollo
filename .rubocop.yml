@@ -1,4 +1,7 @@
 # Please add rules to this file in alphabetical order
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
 
 Metrics/LineLength:
   Max: 100

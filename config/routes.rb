@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'chat#show'
-
-  get '/login', to: 'auth#new'
-  post '/login', to: 'auth#create'
+  # Forwarded to the React App
+  get '*path', to: 'frontend#index'
+  get '/', to: 'frontend#index'
 end
