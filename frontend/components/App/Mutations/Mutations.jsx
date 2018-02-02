@@ -6,11 +6,7 @@ import { Typography } from "material-ui";
 
 class Mutations extends Component {
   static propTypes = {
-    mutate: PropTypes.shape({
-      variables: PropTypes.shape({
-        myVar: PropTypes.string,
-      }),
-    }).isRequired,
+    mutate: PropTypes.func.isRequired,
   };
 
   constructor(props) {
