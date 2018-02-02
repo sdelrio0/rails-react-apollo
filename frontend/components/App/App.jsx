@@ -4,6 +4,8 @@ import styled, { injectGlobal } from "styled-components";
 
 import NavBar from "./NavBar";
 import Queries from "./Queries";
+import Mutations from "./Mutations";
+import Subscriptions from "./Subscriptions";
 
 // eslint-disable-next-line
 injectGlobal`
@@ -22,6 +24,8 @@ const App = () => (
     <NavBar />
     <Content>
       <Queries />
+      <Mutations />
+      <Subscriptions />
     </Content>
   </main>
 );
